@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:week1/pages/day1.dart';
+import 'package:week1/pages/day2.dart';
 
 void main() {
   runApp(
@@ -16,6 +16,6 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return day1_Page();
+    return day2_Page();
   }
 }
